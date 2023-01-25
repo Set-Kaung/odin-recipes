@@ -1,0 +1,12 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.box{
+    flex: 1 2 1;
+    margin-left: 3px;
+    padding: 5px;
+    border: 2px rgb(72, 72, 72) groove;
+}
