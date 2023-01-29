@@ -28,7 +28,7 @@ h1{
 
 
 .mainimg img{
-    max-height: 80%%;
+    max-height: auto;
     max-width: 100%;
     
 }
