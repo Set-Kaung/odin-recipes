@@ -28,7 +28,8 @@ h1{
 
 
 .mainimg img{
-    width: 1080px;
+    max-height: 80%%;
+    max-width: 100%;
     
 }
 
