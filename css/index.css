@@ -1,0 +1,44 @@
+header{
+    
+    background: red;
+    color: azure;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainimg{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainimg img{
+    width: 1080px;
+    
+}
+
+.content-container{
+    display: flex;
+    justify-content: center;
+}
+
+.funcontent, .tradcontent{
+    border: 3px goldenrod solid;
+    margin: 3px;
+    padding: 10px;
+}
