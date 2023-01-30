@@ -17,7 +17,7 @@ h1{
 
 .container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -35,11 +35,25 @@ h1{
 
 .content-container{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.content-container h2{
+    margin: 10px 0px;
+    color: rgb(0, 0, 0);
 }
 
 .funcontent, .tradcontent{
-    border: 3px goldenrod solid;
+    display: flex;
+    flex-direction: column;
+    border: 3px rgb(249, 217, 60) solid;
     margin: 3px;
     padding: 10px;
+    flex-grow: 1;
+}
+
+.disclaimer-box{
+    border: 5px rgb(250, 29, 29) double;
+    text-align: center;
 }
